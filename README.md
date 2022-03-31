@@ -1,39 +1,21 @@
-# git
+# JavaScript 数据结构与算法
+## 列表
+在日常生活中，人们经常使用列表：待办事项列表、购物清单、十佳榜单、最后十名榜单 等。计算机程序也在使用列表，尤其是列表中保存的元素不是太多时。当不需要在一个很 长的序列中查找元素，或者对其进行排序时，列表显得尤为有用。反之，如果数据结构非 常复杂，列表的作用就没有那么大了。
 
-#### 介绍
-{**以下是 Gitee 平台说明，您可以替换此简介**
-Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台
-无论是个人、团队、或是企业，都能够用 Gitee 实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises)}
+### 列表的抽象数据类型定义
+listSize（属性） 列表的元素个数 
+pos（属性） 列表的当前位置 
+length（属性） 返回列表中元素的个数 
+clear（方法） 清空列表中的所有元素 
+toString（方法） 返回列表的字符串形式 
+getElement（方法） 返回当前位置的元素 
+insert（方法） 在现有元素后插入新元素 
+append（方法） 在列表的末尾添加新元素 
+remove（方法） 从列表中删除元素 
+front（方法） 将列表的当前位置设移动到第一个元素 
+end（方法） 将列表的当前位置移动到最后一个元素 
+prev（方法） 将当前位置后移一位 
+next（方法） 将当前位置前移一位 
+currPos（方法） 返回列表的当前位置 
+moveTo（方法） 将当前位置移动到指定位置
 
-#### 软件架构
-软件架构说明
-
-
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
